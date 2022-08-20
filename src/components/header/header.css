@@ -43,7 +43,7 @@
   color: var(--title-color-dark);
 }
 /* BREAKPOINTS */
-@media screen and (max-width: 922px) {
+@media screen and (max-width: 768px) {
   .header {
     top: initial;
     bottom: 0;
@@ -96,7 +96,7 @@
 }
 @media screen and (max-width: 350px) {
   .nav__menu {
-    padding: 2rem 0 0.25rem 4rem;
+    padding: 2rem 0.25rem 4rem;
   }
   .nav__list {
     column-gap: 0;

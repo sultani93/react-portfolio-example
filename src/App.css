@@ -9,10 +9,10 @@
 
   --hue: 0;
   --sat: 0%;
-  --title-color: hsl(var(--hue), var(var(--sat), 20%));
-  --title-color-dark: hsl(var(--hue), var(var(--sat), 0%));
-  --text-color: hsl(var(--hue), var(var(--sat), 46%));
-  --body-color: hsl(var(--hue), var(var(--sat), 98%));
+  --title-color: hsl(var(--hue), var(--sat), 20%);
+  --title-color-dark: hsl(var(--hue), var(--sat), 0%);
+  --text-color: hsl(var(--hue), var(--sat), 46%);
+  --body-color: hsl(var(--hue), var(--sat), 98%);
   --container-color: #fff;
 
   /* fonts */
@@ -103,7 +103,7 @@ img {
 .section {
   padding: 6rem 0 2rem;
 }
-.section-title {
+.section__title {
   font-size: var(--h1-font-size);
   color: var(--title-color);
 }
@@ -113,11 +113,12 @@ img {
   margin-bottom: 4rem;
 }
 
-.section-title,
+.section__title,
 .section__subtitle {
   text-align: center;
 }
 /* layout */
+
 .container {
   max-width: 968px;
   margin-left: auto;
@@ -130,6 +131,7 @@ img {
 }
 
 /* buttons */
+
 .button {
   display: inline-block;
   background-color: var(--title-color);
@@ -145,7 +147,7 @@ img {
 .button__icon {
   margin-left: var(--mb-0-5);
 }
-.button-flex {
+.button--flex {
   display: inline-flex;
   align-items: center;
 }
